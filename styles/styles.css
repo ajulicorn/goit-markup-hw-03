@@ -89,6 +89,7 @@ color: #757575;}
 
 /*bg styles */
 .bg{
+display:flex;
 background: var(--color-footer);
 padding-top: 94px;
 padding-bottom: 94px ;
