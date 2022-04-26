@@ -16,7 +16,7 @@
   <body>
     <!--Header-->
     <header class="page-header">
-      <nav>
+      <nav class="header_container">
         <a class="link logo" href="./index.html"><span class="web">Web</span>Studio</a>
         <ul class="list">
           <li class="list_item"><a class="navigationstudio link" href="index.html">Cтудия</a></li>
@@ -25,13 +25,11 @@
           <li class="list_item"><a href class="navigation link">Контакты</a></li>
         </ul>
       </nav>
-      <div class="contact_list">
-      <div class="email_header"><a class="email_link link" href="mailto:info@devstudio.com"
-        >info@devstudio.com</a
-      ></div>
-      <div class="phone_header"><a class="phone link" href="tel:+380961111111">+38 096 111 11 11</a>
-      </div>
-    </div>
+        <ul class="contact_list list">
+      <li><a class="contact_item link" href="mailto:info@devstudio.com"
+        >info@devstudio.com</a></li>
+      <li><a class="contact_item link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+    </ul>
     </header>
     <main>
     <div>
@@ -41,31 +39,32 @@
         <div><button class="button" type="button">Заказать услугу</button></div>
       </section>
     </div>
-      <section> 
+      <section class="Advantages"> 
+        <div class="advantages_container">
         <h2 class="hidden">Преимущества</h2>
-        <ul class="list">
-          <li>
+        <ul class="advantages_list list">
+          <li class="advantages_item">
             <h3 class="advantage_title">Внимание к деталям</h3>
             <p class="advantage_text">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
-          <li>
+          <li class="advantages_item">
             <h3 class="advantage_title">Пунктуальность</h3>
             <p class="advantage_text">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
-          <li>
+          <li class="advantages_item">
             <h3 class="advantage_title">Планирование</h3>
             <p class="advantage_text">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
-          <li>
+          <li сlass="advantages_item">
             <h3 class="advantage_title">Cовременные технологии</h3>
             <p class="advantage_text">
               Значимость этих проблем настолько очевидна, что реализация
@@ -73,11 +72,14 @@
             </p>
           </li>
         </ul>
+      </div>
       </section>
-      <section>
+
+      <section class="work">
+<div class="container">
         <h2 class="our_work_header">Чем мы занимаемся</h2>
-        <ul class="list">
-          <li>
+        <ul class="list photo-work">
+          <li class="photo-work-item">
             <img
               src="images/box1.jpg"
               width="370"
@@ -85,7 +87,7 @@
               alt="печатает на клавиатуре"
             />
           </li>
-          <li>
+          <li class="photo-work-item">
             <img
               src="images/box2.jpg"
               width="370"
@@ -93,7 +95,7 @@
               alt="пользуется телефоном"
             />
           </li>
-          <li>
+          <li class="photo-work-item">
             <img
               src="images/box3.jpg"
               width="370"
@@ -102,55 +104,67 @@
             />
           </li>
         </ul>
+      </div>
       </section>
       <!--Our team-->
       <section class="ourteam">
+        <div class="container-team">
         <h2 class="our_team_header">Наша команда</h2>
-        <ul class="list">
-          <li>
+        <ul class="list team-list">
+          <li class="team-item">
             <img
               src="images/demyanenko.jpg"
               width="270"
               height="260"
               alt="бородатый молодой человек улыбается"
             />
+            <div class="team-card">
             <h3 class="employees">Игорь Демьяненко</h3>
             <p class="position_title">Product designer</p>
+          </div>
           </li>
-          <li>
+          <li class="team-item">
             <img
               src="images/repina.jpg"
               width="270"
               height="260"
               alt="молодая девушка блондинка улыбается"
             />
+            <div class="team-card">
             <h3 class="employees">Ольга Репина</h3>
-            <p class="position_title">Frontend developer</p>
+            <p class="position_title">Frontend developer</p></div>
           </li>
-          <li>
+          <li class="team-item">
             <img
               src="images/tarasov.jpg"
               width="270"
               height="260"
               alt="молодой человек в голубой рубашке улыбается"
             />
+          <div class="team-card">
             <h3 class="employees">Николай Тарасов</h3>
             <p class="position_title">Marketing</p>
+          </div>
           </li>
-          <li>
+          <li class="team-item">
             <img
               src="images/ermakov.jpg"
               width="270"
               height="260"
               alt="молодой бородатый человек в очках улыбается"
             />
+            <div class="team-card">
             <h3 class="employees">Михаил Ермаков</h3>
             <p class="position_title">UI Designer</p>
+          </div>
           </li>
         </ul>
+      </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer>
+      <section class="footer">
+      <div class="footer_contacts">
       <a class="link logo_footer" href="./index.html"
         ><span class="web_footer">Web</span>Studio</a
       >
@@ -177,6 +191,8 @@
           </li>
         </ul>
       </address>
+    </div>
+      </section>
     </footer>
   </body>
 </html>
