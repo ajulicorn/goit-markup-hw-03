@@ -21,7 +21,6 @@ background-color: var(--color-accent)
 }
 .page-header{
     background-color:var(--color-accent);
-    height: 80px;
     display: flex;
     align-items: center;
 }
@@ -53,8 +52,6 @@ display: flex;}
 }
 
 .navigation{
-padding-top: 23px;
-padding-bottom: 22px;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.33;
