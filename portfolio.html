@@ -10,20 +10,20 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css" integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles/styles.css" />
-    <link rel="normalyzer" href="styles/modern-normalize.css" />
   </head>
   <body>
     <!--Header-->
     <header class="page-header">
       <nav class="header_container">
         <a class="link logo" href="./index.html"><span class="web">Web</span>Studio</a>
-        <ul class="list">
+        <ul class="list header-navigation">
           <li class="list_item"><a class="navigationstudio link" href="index.html">Cтудия</a></li>
           <li class="list_item"><a class="navigation link" href="portfolio.html">Портфолио</a>
           </li>
-          <li class="list_item"><a href class="navigation link">Контакты</a></li>
+          <li class="list_item"><a href="" class="navigation link">Контакты</a></li>
         </ul>
       </nav>
         <ul class="contact_list list">
@@ -34,7 +34,7 @@
     </header>
     <main>
       <section class="portfolio-buttons">
-<div class="navigation-buttons">
+        <h2 class="hidden">buttons</h2>
         <ul class="buttons-list list">
           <li><button class="buttons_item" type="button">Все</button></li>
           <li>
@@ -51,54 +51,83 @@
           </li>
         </ul>
       </div>
-        <section>
-          <h2 class="hidden">Портфолио</h2>
-        </section>
+        
+        <h2 class="hidden">Портфолио</h2>
         <ul class="porfolio list">
           <li class="portfolio-item">
-            <img src="images/teamcard1.jpg" />
+            <img src="images/teamcard1.jpg" 
+            width ="370" 
+            height="294"
+            alt="командная фото" />
             <h3 class="portfolio-items-title">Технокряк</h3>
             <p class="list_item">Веб-сайт</p>
           </li>
           <li class="portfolio-item">
-            <img src="images/teamcard2.jpg" />
+            <img src="images/teamcard2.jpg"
+            width ="370" 
+            height="294"
+            alt="двое мужчин играют в баскетбол" />
             <h3 class="portfolio-items-title">
               Постер New Orlean vs Golden Star
             </h3>
             <p class="list_item">Дизайн</p>
           </li>
           <li class="portfolio-item">
-            <img src="images/teamcard3.jpg" />
+            <img src="images/teamcard3.jpg" 
+            width ="370" 
+            height="294"
+            alt="карточка ресторана морепродуктов"/>
             <h2 class="portfolio-items-title">Ресторан Seafood</h2>
             <p class="list_item">Приложение</p>
           </li>
           <li class="portfolio-item">
-            <img src="images/teamcard4.jpg" />
+            <img src="images/teamcard4.jpg"
+            width ="370" 
+            height="294"
+            alt="наушники"/>
             <h2 class="portfolio-items-title">Проект Prime</h2>
             <p class="list_item">Маркетинг</p>
           </li>
           <li class="portfolio-item">
-            <img src="images/teamcard5.jpg" />
+            <img src="images/teamcard6.jpg" 
+            width ="370" 
+            height="294"
+            alt="две коробки"/>
             <h2 class="portfolio-items-title">Проект Boxes</h2>
             <p class="list_item">Приложение</p>
           </li>
           <li class="portfolio-item">
-            <img src="images/teamcard6.jpg" />
+            <img src="images/teamcard7.jpg" 
+            width ="370" 
+            height="294"
+            alt="на мониторе надпись Inspiration has no borders">
             <h2>Inspiration has no Borders</h2>
             <p class="list_item">Веб-сайт</p>
           </li>
           <li class="portfolio-item">
-            <img src="images/teamcard7.jpg" />
+            <img src="images/teamcard8.jpg" 
+            width ="370" 
+            height="294"
+            alt="разворот журнала"
+            />
             <h2 class="portfolio-items-title">Издание Limited Edition</h2>
             <p class="list_item">Дизайн</p>
           </li>
           <li class="portfolio-item">
-            <img src="images/teamcard8.jpg" />
+            <img src="images/teamcard9.jpg" 
+            width ="370" 
+            height="294"
+            alt="бирка на одежде"
+            />
             <h2 class="portfolio-items-title">Проект LAB</h2>
             <p class="list_item">Маркетинг</p>
           </li>
           <li class="portfolio-item">
-            <img src="images/teamcard9.jpg" />
+            <img src="images/teamcard9.jpg" 
+            width ="370" 
+            height="294"
+            alt="работает на компьютере"
+            />
             <h2 class="portfolio-items-title">Growing Business</h2>
             <p class="list_item">Приложение</p>
           </li>
@@ -106,32 +135,34 @@
       </section>
     </main>
     <footer class="footer">
-      <a class="link logo_footer" href="./index.html"
-        ><span class="web_footer">Web</span>Studio</a
-      >
-      <address class="address">
-        <ul class="list">
-          <li>
-            <a
-              class="location link"
-              href="https://goo.gl/maps/vwGXuSgqASsSbx4F7"
-              target="_blank"
-              rel="noreferrer"
-              >г. Киев, пр-т Леси Украинки, 26</a
-            >
-          </li>
-          <li>
-            <a class="footer_email link" href="emailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="footer_phone link" href="tel:+380961111111">
-              +38 096 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
-    </footer>
+      <div class="footer-container">
+        <a class="link logo_footer" href="./index.html"
+          ><span class="web_footer">Web</span>Studio</a
+        > </div>
+        <address class="address">
+          <ul class="list footer-contacts">
+            <li>
+              <a
+                class="location link"
+                href="https://goo.gl/maps/vwGXuSgqASsSbx4F7"
+                target="_blank"
+                rel="noreferrer"
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
+            </li>
+            <li>
+              <a class="footer_email link" href="emailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="footer_phone link" href="tel:+380961111111">
+                +38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </section>
+      </footer>
   </body>
 </html>
