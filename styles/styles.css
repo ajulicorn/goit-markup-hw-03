@@ -355,7 +355,8 @@ flex-wrap: wrap;
 .portfolio-item{
 width:calc(100%/ 3-30px);
 margin-left:15px;
-margin-bottom: 30px;}
+margin-bottom: 30px;
+border-bottom: 1px solid #EEEEEE;}
 
 .portfolio-item:nth-child(3){
     margin-right: 0;
